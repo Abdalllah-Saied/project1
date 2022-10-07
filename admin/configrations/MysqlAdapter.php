@@ -36,6 +36,7 @@ class MysqlAdapter
     }
     /*
      * Execute the specified query
+     * dddddd
      * */
     public function query($query){
         if (!is_string($query) || empty($query)){
